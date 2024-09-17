@@ -1,0 +1,99 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #a51313;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+#seleccion-grado {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#seleccion-grado label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#grado {
+    padding: 5px;
+    font-size: 16px;
+}
+
+#lista-libros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.libro {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.libro img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    #lista-libros {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .libro {
+        width: 90%;
+        margin: 10px 0;
+    }
+}
+
+/* Media Queries para pantallas más grandes */
+@media (min-width: 769px) {
+    #lista-libros {
+        justify-content: flex-start;
+    }
+
+    .libro {
+        flex: 1 1 30%;
+        margin: 10px;
+    }
+}
+
+.btn-ejercicios {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-ejercicios:hover {
+    background-color: #218838;
+}
+
+img {
+    width: 70px;  /* Define el ancho deseado */
+    height: auto;  /* Mantiene la proporción del alto */
+  }

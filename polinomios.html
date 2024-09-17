@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de Polinomios</title>
+    <link rel="stylesheet" href="css/stylesec.css">
+</head>
+<body>
+    <h1>Resuelve el Ejercicio sobre Polinomios</h1>
+    <div id="ejercicio"></div>
+
+    <!-- Área para mostrar los botones de selección -->
+    <div id="seleccion">
+        <button onclick="agregarCaracter('x²')">x²</button>
+        <button onclick="agregarCaracter('x')">x</button>
+        <button onclick="agregarCaracter(' + ')"> + </button>
+        <button onclick="agregarCaracter(' - ')"> - </button>
+        <button onclick="agregarCaracter('0')">0</button>
+        <button onclick="agregarCaracter('1')">1</button>
+        <button onclick="agregarCaracter('2')">2</button>
+        <button onclick="agregarCaracter('3')">3</button>
+        <button onclick="agregarCaracter('4')">4</button>
+        <button onclick="agregarCaracter('5')">5</button>
+        <button onclick="agregarCaracter('6')">6</button>
+        <button onclick="agregarCaracter('7')">7</button>
+        <button onclick="agregarCaracter('8')">8</button>
+        <button onclick="agregarCaracter('9')">9</button>
+        <button onclick="borrarCaracter()">Borrar</button>
+    </div>
+
+    <!-- Área para mostrar la respuesta construida -->
+    <div id="respuestaConstruida"></div>
+
+    <button onclick="comprobarRespuesta()">Comprobar</button>
+    <p id="resultado"></p>
+    <button id="cerrar" onclick="cerrarPagina()">Salir</button>
+
+    <script src="js/polinomio.js"></script>
+</body>
+</html>

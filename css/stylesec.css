@@ -1,0 +1,156 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#ecuacion {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+input {
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px #ffffff;
+}
+
+button {
+    font-size: 22px;
+    background-color: #ff6b6b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: #ff4b4b;
+}
+
+#resultado {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+/* Media Queries para ajustar el diseño en dispositivos más pequeños */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    #ejercicio {
+        font-size: 1.25rem;
+    }
+
+    input, button {
+        font-size: 1rem;
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #ejercicio {
+        font-size: 1rem;
+    }
+
+    input, button {
+        font-size: 0.9rem;
+        width: 100%;
+    }
+}
+
+/* Estilos para el botón de cerrar */
+#cerrar {
+    font-size: 1.25rem;
+    background-color: #ff6b6b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#cerrar:hover {
+    background-color: #ff4b4b;
+}
+
+
+/* Estilos para la selección de caracteres */
+#seleccion {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#seleccion button {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#seleccion button:hover {
+    background-color: #f0f0f0;
+}
+
+#respuestaConstruida {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
