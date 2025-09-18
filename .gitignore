@@ -1,0 +1,23 @@
+# Ignore build and distribution folders
+/dist/
+/build/
+/__pycache__/
+*.spec
+*.exe
+
+# Ignore screenshots if not needed
+# /screenshots/
+
+# Ignore Python environment files
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+
+# Ignore zip files
+*.zip
