@@ -1,0 +1,4 @@
+# Requirements for Linux Terminal Simulator
+# Add any additional dependencies if used
+
+tkinter

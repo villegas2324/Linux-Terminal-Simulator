@@ -69,28 +69,42 @@ A beautiful GUI-based Linux terminal simulator built with Python and Tkinter tha
 
 ## 🚀 Installation
 
+
 ### Prerequisites
 - Python 3.7 or higher
 - Tkinter (usually included with Python)
 
-### Quick Start
-1. **Clone the repository**
+
+### Download and Run (Windows)
+
+You can run Linux Terminal Simulator on Windows by downloading either the standalone `.exe` file or the zip package:
+
+#### Option 1: Download the `.exe` file
+1. Go to the [Releases](https://github.com/sam666-deb/linux-terminal-simulator/releases) page.
+2. Download `Linux-Terminal-Simulator.exe` from the latest release.
+3. (Optional) Download the `screenshots` folder if you want to view sample images.
+4. Double-click `Linux-Terminal-Simulator.exe` to start the program.
+
+#### Option 2: Download the zip file
+1. Go to the [Releases](https://github.com/sam666-deb/linux-terminal-simulator/releases) page.
+2. Download the zip file (e.g., `Linux-Terminal-Simulator.zip`).
+3. Extract the zip file to any folder.
+4. Open the extracted folder and double-click `Linux-Terminal-Simulator.exe` to run.
+
+No installation is required. All necessary files are included in the zip package.
+
+#### Option 3: Run from source (Python)
+1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/linux-terminal-simulator.git
+   git clone https://github.com/sam666-deb/linux-terminal-simulator.git
    cd linux-terminal-simulator
    ```
-
-2. **Run the application**
+2. Run the application:
    ```bash
    python main.py
    ```
 
-### Alternative Installation
-```bash
-# Download and run directly
-wget https://raw.githubusercontent.com/yourusername/linux-terminal-simulator/main/main.py
-python main.py
-```
+---
 
 ## 💻 Usage
 
@@ -195,16 +209,16 @@ chmod --help            # Alternative help syntax
 
 ## 🏗️ Project Structure
 
+
 ```
 linux-terminal-simulator/
 ├── main.py                 # Main application file
-├── README.md              # This documentation
-├── screenshots/           # Application screenshots
-│   ├── main-interface.png
-│   ├── command-execution.png
-│   ├── file-operations.png
-│   └── color-output.png
-└── .gitignore            # Git ignore file
+├── README.md               # This documentation
+├── screenshots/            # Application screenshots
+│   ├── img1.png
+│   ├── img2.png
+│   ├── img3.png
+├── .gitignore              
 ```
 
 ### Code Architecture
@@ -240,7 +254,7 @@ We welcome contributions! Here's how you can help:
 ### Development Setup
 ```bash
 # Clone your fork
-git clone https://github.com/yourusername/linux-terminal-simulator.git
+git clone https://github.com/sam666-deb/linux-terminal-simulator.git
 
 # Create virtual environment
 python -m venv venv
